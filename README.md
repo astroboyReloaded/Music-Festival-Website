@@ -110,6 +110,7 @@ npm install` command in your console.
 
 To run the linters before committing any changes to your code, execute the following commands:
 
+<<<<<<< HEAD
 ```sh
 lighthouse <url>
 ```
@@ -124,6 +125,13 @@ _NOTE: this repo is set up to use with CSS. If you would like to use SCSS, you m
 npx stylelint "**/*.scss"
 ```
  _instead_.
+=======
+`lighthouse <url>`
+`npx hint .`
+`npx stylelint "**/*.scss"` <--_NOTE: this repo is set up to use with SCSS. If you would like to use CSS, you must replace `"**/*.scss"` with `"**/*.{css,scss}"` in **line 48** of the `linters.yml` file, and run the linter with:_
+
+`npx stylelint "**/*.{css,scss}"` _instead_.
+>>>>>>> 376e87170722102c7ac042ed2f2eecb80201f4d9
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
