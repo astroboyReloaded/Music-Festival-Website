@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="Astroboy-removebg.png" alt="logo" width="120"  height="auto" />
+  <img src="images/icons/Astroboy-removebg.png" alt="logo" width="120"  height="auto" />
   <br/>
 
   <h3><b>Hello Microverse</b></h3>

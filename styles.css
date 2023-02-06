@@ -1,5 +1,34 @@
-.title {
-  color: rgb(1, 151, 185);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,900&display=swap');
+
+:root {
+  
 }
 
-/*# sourceMappingURL=styles.css.map */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+html {
+  font-family: 'Lato', 'sans-serif';
+  font-size: 15px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1440px;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
