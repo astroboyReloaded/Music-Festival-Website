@@ -185,7 +185,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thank [Microverse](https://www.microverse.org/) for teaching me these tools.
+> I would like to thank [Cindy Shin GUI & Graphic Designer](https://www.behance.net/adagio07) for such a great desing.
 
 <!-- LICENSE -->
 
