@@ -84,61 +84,84 @@
 
 ### Prerequisites
 
-In order to run this project you need:
-
-- Have [npm](https://www.npmjs.com/package/npm) installed in your project:
-  `curl -qL https://www.npmjs.com/install.sh | sh`
+- [HTML](https://www.w3.org/html/) + [CSS](https://www.w3.org/Style/CSS/Overview.en.html) + [JavaScript](https://www.javascript.com/)
 
 ### Setup
 
-Clone this repository to your desired folder:
+- If you wish to work from this project by editing it's code:
 
-`git clone https://github.com/astroboyReloaded/Hello-Microverse.git`
-
-or
-
-`git clone git@github.com:astroboyReloaded/Hello-Microverse.git` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
-
-### Install:
-
-run the 
 ```sh
-npm install` command in your console.
+git clone https://github.com/astroboyReloaded/astroboyReloaded.github.io.git
+```
+
+### Install
+
+You may add linters to ensure adhering to best practices.
+
+1.- Create a package.json:
+
+```sh
+npm init -y
+```
+
+or:
+
+```sh
+npm init
+```
+
+to fill up fields manually.
+
+2.- Install all dependencies (linters):
+
+```sh
+npm install
 ```
 
 ### Usage
 
-To run the linters before committing any changes to your code, execute the following commands:
+- May use as a base or reference to develop your own portfolio.
+- Run
 
-```sh
-lighthouse <url>
-```
 ```sh
 npx hint .
 ```
-```sh
-`npx stylelint "**/*.{css,scss}"`
-``` 
-_NOTE: this repo is set up to use with CSS. If you would like to use SCSS, you must replace `"**/*.{css,scss}"` with `"**/*.scss"` in **line 48** of the `linters.yml` file, and run the linter with:_
-```sh
-npx stylelint "**/*.scss"
-```
- _instead_.
 
+to get an HTML review.
+
+- Run
+
+```sh
+npx stylelint "**/*.{css,scss}"
+```
+
+to get a CSS review.
+
+- Run
+
+```sh
+lighthouse <URL>
+```
+to get a performance review.
+
+- Run 
+
+```sh
+npx eslint .
+```
+to get a JavaScript review.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## Author <a name="authors"></a>
 
-> 👤 **AstroboyReloaded**
+👤 **astroboyReloaded**
 
-- GitHub: [@astroboyReloaded](https://github.com/astroboyReloaded)
+- GitHub: [astroboyReloaded](https://github.com/astroboyReloaded)
 - Twitter: [@astroboyReload](https://twitter.com/astroboyReload)
-- LinkedIn: [Alex Muñoz](https://www.linkedin.com/in/astroboyreloaded/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/astroboyreloaded/)
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
