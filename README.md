@@ -109,7 +109,7 @@ To run the linters before committing any changes to your code, execute the follo
 
 `lighthouse <url>`
 `npx hint .`
-`npx stylelint "**/*.scss"` <--_NOTE: this repo is set up to use with SCSS. If you would like to use CSS, you must replace `"**/*.scss"` with `"**/*.{css,scss}"` in **line 48** of the `.stylelintrc.json` file, and run the linter with:_
+`npx stylelint "**/*.scss"` <--_NOTE: this repo is set up to use with SCSS. If you would like to use CSS, you must replace `"**/*.scss"` with `"**/*.{css,scss}"` in **line 48** of the `linters.yml` file, and run the linter with:_
 
 `npx stylelint "**/*.{css,scss}"` _instead_.
 
