@@ -1,8 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,900&display=swap');
 
+/* Color */
+
 :root {
-  
+  --main: #EC5242;
+  --black: #272A31;
+  --drkGray: #5C5C5C;
+  --lghtGray: #D3D3D3;
 }
+
+/* Font */
+
+html {
+  font-family: 'Lato', 'sans-serif';
+  font-size: 18px;
+}
+
+/* Reset*/
 
 *,
 *::before,
@@ -16,10 +30,6 @@
   outline: none;
 }
 
-html {
-  font-family: 'Lato', 'sans-serif';
-  font-size: 15px;
-}
 
 body {
   display: flex;
@@ -32,3 +42,4 @@ body {
 ul {
   list-style: none;
 }
+
