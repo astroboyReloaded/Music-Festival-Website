@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <script src="/pages/scripts/artists.js" type="module"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="/pages/styles/index.css">
+    <link rel="icon" type="image/x-icon" href="./images/icons/favicon.png">
+    <meta name="description" content="The un-official Tecate Supremo 2023 website.">
     <title>Tecate Supremo 2023</title>
   </head>
   <body>
@@ -14,11 +18,11 @@
         <span class="burguer"></span>
         <nav>
           <ul>
-            <li class="nav-item">About</li>
-            <li class="nav-item">Program</li>
-            <li class="nav-item">Join</li>
-            <li class="nav-item">Sponsor</li>
-            <li class="nav-item">News</li>
+            <li class="nav-item"><a href="pages/about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Program</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Join</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Sponsors</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">History</a></li>
           </ul>
         </nav>
       </label>
@@ -41,26 +45,26 @@
     </header>
     <main>
       <section id="information">
-        <h1 class="infoTitle">Information</h1>
-        <article class="tickets">
-          <h2>Tickets</h2>
+        <h1 class="sectionTitle info">Information</h1>
+        <a href="#" class="tickets info-link">
+          <h1>Tickets</h1>
           <p>Here are the different types of tickets and their benefits. Take advantage of the prices in the different phases.</p>
-        </article>
-        <article class="sched">
-          <h2>Schedule</h2>
+        </a>
+        <a href="#" class="sched info-link">
+          <h1>Schedule</h1>
           <p>The festival will be held on May 20 of 2023, starting at 12:00. See inside for details.</p>
-        </article>
-        <article class="serv">
-          <h2>Services</h2>
+        </a>
+        <a href="#" class="serv info-link">
+          <h1>Services</h1>
           <p>There will be a variety of services available inside the festival, some are included with your ticket, and some are extra.</p>
-        </article>
-        <article class="secur">
-          <h2>Security</h2>
+        </a>
+        <a href="#" class="secur info-link">
+          <h1>Security</h1>
           <p>Which items are allowed, and which items are forbidden in the festival?</p>
-        </article>
+        </a>
         <a href="#" class="join">Join Tecate Supremo 2023</a>
       </section>
-      <section class="artists">
+      <section id="artists">
       </section>
     </main>
   </body>
