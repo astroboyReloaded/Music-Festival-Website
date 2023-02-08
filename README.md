@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="Astroboy-removebg.png" alt="logo" width="120"  height="auto" />
+  <img src="images/icons/Astroboy-removebg.png" alt="logo" width="120"  height="auto" />
   <br/>
 
   <h3><b>Hello Microverse</b></h3>
@@ -183,7 +183,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thank [Microverse](https://www.microverse.org/) for teaching me these tools.
+> I would like to thank [Cindy Shin GUI & Graphic Designer](https://www.behance.net/adagio07) for such a great desing.
 
 <!-- LICENSE -->
 

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,900&display=swap');
+
+/* Color */
+
+:root {
+  --main: #ec5242;
+  --seeThru: #ff1900b7;
+  --black: #272a31;
+  --drkGray: #5c5c5c;
+  --lghtGray: #f5f5f5;
+}
+
+/***************************** HEADER *****************************/
+
+header {
+  display: flex;
+  background: url('../../images/deco/background-about.png') no-repeat;
+  background-size: 100%;
+}
+
+/*********************** Headline *********************/
+
+#headline {
+  width: 100%;
+  color: var(--drkGray);
+}
+
+#headline > h1 {
+  font-size: 9vw;
+  font-weight: 900;
+  height: 114vw;
+  padding: 30vw 0 0 3vw;
+  background-color: #f5f5f580;
+  color: var(--seeThru);
+  text-align: left;
+}
+
+.headline-p {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  top: 57vw;
+  width: 94%;
+  margin-inline: 3vw;
+  border: 2px solid rgb(199, 199, 199);
+  padding: 3vw;
+  background-color: #fff;
+  text-align: center;
+  font-size: 3.6vw;
+  line-height: 6vw;
+  color: var(--drkGray);
+}
+
+.contact {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 90vw;
+  width: 94%;
+  margin-inline: 3vw;
+  padding: 3vw;
+  text-align: center;
+  align-items: center;
+  font-size: 3.6vw;
+  line-height: 5.7vw;
+  color: var(--drkGray);
+}
+
+address {
+  position: relative;
+  top: -9vw;
+  width: 100%;
+  text-align: center;
+  font-size: 3.6vw;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/******************* Main ***********************/
+
+#creative {
+  border-bottom: 2px solid var(--lghtGray);
+}
+
+/***** Creative ***********/
+
+#creative h1 {
+  width: 60%;
+  color: var(--black);
+}
+
+section p {
+  width: 90%;
+  font-size: 3.6vw;
+  line-height: 5.4vw;
+  color: var(--drkGray);
+}
+
+#creative img {
+  width: 100%;
+  margin-block: 9vw;
+  padding: 6vw 27vw;
+  border: 2px solid var(--lghtGray);
+}
+
+/******* History *********/
+
+#history {
+  padding: 0  12vw 12vw 12vw;
+}
+
+#history p {
+  padding-bottom: 3vw;
+}
+
+.hist-link {
+  width: 100%;
+  height: 100%;
+  margin-block: 1.5vw;
+  text-decoration: none;
+}
+
+.ts2022 {
+  background: url('../../images/content/tecateS-2022.jpg') no-repeat;
+  background-size: contain;
+}
+
+.ts2020 {
+  background: url('../../images/content/tecateS-2020.png') no-repeat;
+  background-size: 100% auto;
+}
+
+#history article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #b62a1bad;
+  width: 100%;
+  height: 43vw;
+  color: var(--lghtGray);
+}
+
+/******************* Sponsors ******************/
+
+#sponsors {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: var(--drkGray);
+  padding-bottom: 9vw;
+}
+
+#sponsors h1 {
+  display: block;
+  margin-inline: 100%;
+}
+
+.sponsor {
+  margin: 0 3vw 3vw 3vw;
+}
+
+.w1 {
+  width: 36vw;
+}
+
+.w2 {
+  width: 15vw;
+}
+
+.w3 {
+  width: 18vw;
+}
+
+/**** Icon ****/
+
+.ts-icon {
+  width: 90vw;
+  margin-block: 9vw;
+}
