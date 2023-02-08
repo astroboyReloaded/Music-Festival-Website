@@ -139,3 +139,13 @@ section p {
   color: var(--lghtGray);
 }
 
+/******************* Sponsors ******************/
+
+#sponsors {
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: var(--drkGray);
+}
+
+
+
