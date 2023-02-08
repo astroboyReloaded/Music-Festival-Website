@@ -213,7 +213,7 @@ main {
   text-align: left;
 }
 
-.artist-data h1 {
+.artist-name {
   position: relative;
   top: -3vw;
   font-size: 4.5vw;
@@ -237,7 +237,7 @@ main {
   top: 1.8vw;
 }
 
-.artist-data p {
+.artist-intro {
   position: relative;
   top: 1.8vw;
   font-size: 2.7vw;
