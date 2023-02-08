@@ -3,21 +3,21 @@
 /* Color */
 
 :root {
-  --main: #EC5242;
+  --main: #ec5242;
   --seeThru: #ff1900b7;
-  --black: #272A31;
-  --drkGray: #5C5C5C;
-  --lghtGray: #F5F5F5;
+  --black: #272a31;
+  --drkGray: #5c5c5c;
+  --lghtGray: #f5f5f5;
 }
 
 /* Font */
 
 html {
-  font-family: 'Lato', 'sans-serif';
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
 
-/* Reset*/
+/* Reset */
 
 *,
 *::before,
@@ -30,7 +30,6 @@ html {
 *:focus {
   outline: none;
 }
-
 
 body {
   display: flex;
@@ -73,8 +72,7 @@ section {
 
 header {
   display: flex;
-  background:
-    url('images/deco/background-removebg-preview.png') no-repeat;
+  background: url('images/deco/background-removebg-preview.png') no-repeat;
   background-size: 100%;
 }
 
@@ -96,7 +94,9 @@ header {
   display: none;
 }
 
-.burguer, .burguer::before, .burguer::after {
+.burguer,
+.burguer::before,
+.burguer::after {
   display: inline-block;
   position: relative;
   background-color: var(--black);
@@ -123,7 +123,7 @@ header {
 }
 
 .menu-btn input:checked + .burguer {
-  background-color: #ffffff00;
+  background-color: #fff0;
 }
 
 .menu-btn input:checked + .burguer::after {
