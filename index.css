@@ -72,8 +72,13 @@ section {
 
 header {
   display: flex;
+  flex-direction: column;
   background: url('images/deco/background-removebg-preview.png') no-repeat;
   background-size: 100%;
+}
+
+#session {
+  display: none;
 }
 
 /* Menu Button */
@@ -166,4 +171,40 @@ nav ul {
 .nav-link {
   text-decoration: none;
   color: var(--main);
+}
+
+@media screen and (min-width: 768px) {
+
+  /********** Header ********/
+
+  #session {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    background-color: var(--black);
+    color: var(--lghtGray);
+    font-size: 1.2vw;
+    padding: 0.6vw 12vw 0.6vw 0;
+  }
+
+  .sess-icon {
+    margin-inline: 1.2vw;
+  }
+
+  .burguer {
+    display: none;
+  }
+
+  #headline > h1 {
+    font-size: 9vw;
+    font-weight: 900;
+    /* height: 150vw; */
+    /* padding: 30vw 0 0 3vw; */
+    background-color: #f5f5f5b2;
+    color: var(--seeThru);
+    text-align: left;
+  }
 }
