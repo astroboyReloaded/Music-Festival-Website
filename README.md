@@ -61,11 +61,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Linters**: [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/), [Webhint](https://webhint.io/), and [Stylelint](https://stylelint.io/.)
+- **Linters**: [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/), [Webhint](https://webhint.io/), [Stylelint](https://stylelint.io/.) and [ESLint](https://eslint.org/).
 - **A `.github/workflows/linters.yml`** file to run linters on GitHub Pull Request.
 - **A** `.gitignore` file, including `node_modules/`.
-
-- [Sass](https://sass-lang.com/).
 
 <!-- LIVE DEMO -->
 
