@@ -23,9 +23,13 @@
   font-weight: 900;
   height: 150vw;
   padding: 30vw 0 0 3vw;
-  background-color: #f5f5f5dc;
+  background-color: #f5f5f5b2;
   color: var(--seeThru);
   text-align: left;
+}
+
+small {
+  font-size: 2.4vw;
 }
 
 .line-up {
@@ -81,6 +85,7 @@
 
 .l7 {
   flex-basis: 30%;
+  font-size: 3vw;
 }
 
 .don {
@@ -89,6 +94,7 @@
 
 .l8 {
   flex-basis: 45%;
+  font-size: 3vw;
 }
 
 time {
@@ -118,7 +124,7 @@ main {
 
 #information {
   height: fit-content;
-  background: url('/images/deco/steel-gray-metal-bg.jpg') no-repeat;
+  background: url('../../images/deco/steel-gray-metal-bg.jpg') no-repeat;
   background-size: cover;
   padding-bottom: 1.5vw;
 }
@@ -158,22 +164,22 @@ main {
 }
 
 .tickets {
-  background: url('/images/icons/ticket-icon.png') -3vw 50% no-repeat #5c5c5ca9;
+  background: url('../../images/icons/ticket-icon.png') -3vw 50% no-repeat #5c5c5ca9;
   background-size: 27vw;
 }
 
 .sched {
-  background: url('/images/icons/schedule-icon.png') -1.8vw 50% no-repeat #5c5c5ca9;
+  background: url('../../images/icons/schedule-icon.png') -1.8vw 50% no-repeat #5c5c5ca9;
   background-size: 27vw;
 }
 
 .serv {
-  background: url('/images/icons/services-icon.png') -1.8vw 50% no-repeat #5c5c5ca9;
+  background: url('../../images/icons/services-icon.png') -1.8vw 50% no-repeat #5c5c5ca9;
   background-size: 27vw;
 }
 
 .secur {
-  background: url('/images/icons/security-icon.png') -1.8vw 50% no-repeat #5c5c5ca9;
+  background: url('../../images/icons/security-icon.png') -1.8vw 50% no-repeat #5c5c5ca9;
   background-size: 27vw;
 }
 
@@ -202,7 +208,7 @@ main {
 .artist-card {
   display: flex;
   width: 100%;
-  background: url('/images/deco/chessboard.jpg') 3vw 12% no-repeat;
+  background: url('../../images/deco/chessboard.jpg') 3vw 12% no-repeat;
   background-size: 12vw;
   padding: 6vw 0 6vw 6vw;
 }

@@ -153,6 +153,7 @@ section p {
 #sponsors h1 {
   display: block;
   margin-inline: 100%;
+  color: var(--lghtGray);
 }
 
 .sponsor {
@@ -174,6 +175,6 @@ section p {
 /**** Icon ****/
 
 .ts-icon {
-  width: 90vw;
+  width: 60vw;
   margin-block: 9vw;
 }
