@@ -85,7 +85,7 @@ address {
   left: 45%;
 }
 
-#creative p {
+.creative-p {
   width: 90%;
   font-size: 3.6vw;
   line-height: 5.4vw;
