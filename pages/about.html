@@ -12,16 +12,25 @@
   </head>
   <body>
     <header>
+      <section id="session">
+        <a class="sess-link" href="#"><i class="sess-icon"><img class="face" src="../images/icons/facebook-icon.png" alt="facebook icon"></i></a>
+        <a class="sess-link" href="#"><i class="sess-icon"><img class="twit" src="../images/icons/twitter-icon.png" alt="twitter icon"></i></a>
+        <a class="sess-link" href="#"><p class="sess-icon">English</p></a>
+        <a class="sess-link" href="#"><p class="sess-icon">MyPage</p></a>
+        <a class="sess-link" href="#"><p class="sess-icon">Logout</p></a>
+      </section>
       <label class="menu-btn">
         <input type="checkbox">
         <span class="burguer"></span>
         <nav>
+          <a href="../index.html"><img class="nav-logo" src="../images/content/ts-logo.png" alt="Tecate Supremo logo"></a>
           <ul>
-            <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="../index.html" class="nav-link active">About</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Program</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Join</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Sponsors</a></li>
             <li class="nav-item"><a href="#" class="nav-link">History</a></li>
+            <li class="nav-item"><a class="nav-link campaign" href="#">TS Campaign</a></li>
           </ul>
         </nav>
       </label>
@@ -39,22 +48,25 @@
     <main>
       <section id="creative">
         <h1 class="sectionTitle">Tecate Supremo 2023 Logo</h1>
-        <p>The logo of Tecate Supremo 2023 was decided during a bar conversation over a few beers on 11.January...</p>
+        <p class="creative-p">The logo of Tecate Supremo 2023 was decided during a bar conversation over a few beers on 11.January...</p>
+        <p class="creative-p desktop-p">There were 3 desings into play by 3 different creators, the winner was selected with a beer drinking contest.</p>
+        <p class="creative-p desktop-p">After 9 rounds, the winner was John Doe, the logo for Tecate Supremo was presented as following:</p>
         <img src="../images/content/ts-logo.png" alt="Tecate Supremos's logo">
       </section>
       <section id="history">
         <h1 class="sectionTitle">See the past Tecate Supremos</h1>
-        <p>See the past two Tecate Supremo festivals</p>
+        <p class="history-p">See the past two Tecate Supremo festivals</p>
         
         <a href="#" class="ts2022 hist-link">
           <article>
-            <h2>2022</h2><h3>Tecate Supremo 2022</h3>
+            <time class="hist-time">2022</time>
+            <h1 class="hist-title">Tecate Supremo 2022</h1>
           </article>
         </a>
         <a href="#" class="ts2020 hist-link">  
           <article>
-            <h2>2020</h2>
-            <h3>Tecate Supremo 2020</h3>
+            <time class="hist-time">2020</time>
+            <h1 class="hist-title">Tecate Supremo 2020</h1>
           </article>
         </a>
       </section>
@@ -67,9 +79,13 @@
         <i class="sponsor"><img class="w2" src="../images/content/ocesa-logo.png" alt="Ocesa logo"></i>
         <i class="sponsor"><img class="w2" src="../images/content/apodaca-logo.png" alt="Apodaca Group logo"></i>
       </section>
-      <section>
+      <footer>
         <i><img class="ts-icon" src="../images/content/ts-logo.png" alt="Tecate Supremo icon"></i>
-      </section>
+      <div class="foot-text-cont">
+        <p>Tecate Supremo 2023</p>
+        <p>Content taken from <a href="https://tecatesupremo.com/">Tecate Supremo's official site</a></p>
+      </div>
+      </footer>
     </main>
 </body>
 </html>
