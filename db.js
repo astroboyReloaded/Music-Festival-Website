@@ -1,7 +1,7 @@
 const artists = [
   {
     name: 'Interpol',
-    image: '../../images/content/interpol.jpg',
+    image: './images/content/interpol.jpg',
     alt: 'Paul Banks, Daniel Kessler and Sam Fogarino dress up in suits, full body shot.',
     description: 'Interpol is an American rock band from Manhattan, New York. Formed in 1997.',
     intro: 'Interpol is one of the bands associated with the New York indie music scene and one of several groups that emerged from the post-punk revival of the 2000s.',
@@ -15,14 +15,14 @@ const artists = [
   },
   {
     name: 'Poolside',
-    image: '../../images/content/poolside.jpg',
+    image: '/images/content/poolside.jpg',
     alt: 'Jeffrey Paradise inside a pool by the edge wearing a shirt and tie.',
     description: 'Poolside is an American nu-disco and chillwave band from Los Angeles, California, formed in 2011.',
     intro: 'Poolside released their third record Low Season on February 7, 2020, followed soon after by its companion record High Season on May 28, 2021.',
   },
   {
     name: 'Santa Fe Klan',
-    image: '../../images/content/santa-fe-klan.jpg',
+    image: 'images/content/santa-fe-klan.jpg',
     alt: 'Ángel Jair Quezada Jasso shot from the chest up poses with his hands toghether wearing only a hat leting his tatoos visible.',
     description: 'Santa Fe Klan is a raper, singer and songwiter fom Guanajuato, Mexico.',
     intro: 'Santa Fe Klan incorporates to his music production genres like cumbia and mexican rap.',
