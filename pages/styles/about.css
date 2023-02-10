@@ -204,6 +204,10 @@ address {
 
   /*************** Main ********************/
 
+  main {
+    padding-left: 3.6vw;
+  }
+
   /******** Creative **********/
 
   #creative h1::after {
@@ -231,7 +235,7 @@ address {
   #history {
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0;
+    padding: 0 0 6vw 0;
     justify-content: center;
   }
 
@@ -250,6 +254,11 @@ address {
     height: 30%;
     text-decoration: none;
     margin-inline: 1.5vw;
+    transition: transform 300ms ease-in-out;
+  }
+
+  .hist-link:hover {
+    transform: scale(1.2);
   }
 
   .hist-time {
@@ -288,6 +297,7 @@ address {
   footer {
     background-color: var(--black);
     justify-content: flex-start;
+    padding: 3vw 0 3vw 4.5vw;
   }
 
   .ts-icon {
@@ -296,7 +306,7 @@ address {
     margin: 1vw;
   }
 
-  .foot-text-cont p {
+  .footer-p {
     color: var(--lghtGray);
     font-size: 1.2vw;
   }

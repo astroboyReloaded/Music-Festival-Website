@@ -170,13 +170,10 @@ nav ul {
   text-align: center;
 }
 
-.nav-item {
-  margin: 6vw;
-}
-
 .nav-link {
   text-decoration: none;
   color: var(--main);
+  margin: 6vw;
 }
 
 .campaign {
@@ -217,6 +214,7 @@ nav ul {
 }
 
 /**** Footer ****/
+
 footer {
   display: flex;
 }
@@ -232,7 +230,8 @@ footer {
   justify-content: center;
 }
 
-footer p {
+.footer-p {
+  width: fit-content;
   margin: 0.6vw;
   color: var(--drkGray);
 }
@@ -272,26 +271,26 @@ footer p a {
     justify-content: flex-end;
     background-color: var(--black);
     color: var(--lghtGray);
-    font-size: 1.2vw;
+    font-size: 0.9vw;
     padding: 0.6vw 12vw 0.6vw 0;
   }
 
   .sess-link {
     text-decoration: none;
+    margin-inline: 1.2vw;
   }
 
   .sess-icon {
-    margin-inline: 1.2vw;
     font-size: 1.2vw;
     color: var(--lghtGray);
   }
 
   .face {
-    width: 1.5vw;
+    width: 1.2vw;
   }
 
   .twit {
-    width: 1.8vw;
+    width: 1.5vw;
   }
 
   /**** NavBar ****/
@@ -319,7 +318,8 @@ footer p a {
 
   .nav-logo {
     display: block;
-    width: 9vw;
+    width: 6vw;
+    margin: 1.5vw;
   }
 
   nav ul {
@@ -329,11 +329,16 @@ footer p a {
   }
 
   .nav-item {
-    margin: 2.4vw;
+    padding: 1vw 1.5vw;
   }
 
   .nav-link {
     color: var(--drkGray);
+    margin: 0;
+  }
+
+  .nav-link:hover {
+    color: var(--main);
   }
 
   .active {
@@ -343,6 +348,12 @@ footer p a {
   .campaign {
     padding: 0.9vw;
     color: var(--main);
+    transition: all 300ms ease-in-out;
+  }
+
+  .campaign:hover {
+    background-color: var(--main);
+    color: var(--lghtGray);
   }
 
   /******** Sponsors *******/
@@ -370,15 +381,5 @@ footer p a {
 
   .w3 {
     width: 12vw;
-  }
-
-  /************ Footer **************/
-
-  footer {
-    justify-content: center;
-  }
-
-  .ts-icon {
-    width: 21vw;
   }
 }
