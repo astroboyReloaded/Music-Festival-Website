@@ -165,9 +165,13 @@ input:checked ~ nav {
 
 nav ul {
   position: relative;
-  top: 30px;
+  top: 90px;
   font-size: clamp(18px, 6vw, 36px);
   text-align: center;
+}
+
+.nav-item {
+  margin: 3vw;
 }
 
 .nav-link {
@@ -329,7 +333,7 @@ footer p a {
   }
 
   .nav-item {
-    padding: 1vw 1.5vw;
+    margin: 0 1.5vw;
   }
 
   .nav-link {
@@ -341,7 +345,7 @@ footer p a {
     color: var(--main);
   }
 
-  .active {
+  .about {
     color: var(--main);
   }
 
@@ -381,5 +385,22 @@ footer p a {
 
   .w3 {
     width: 12vw;
+  }
+
+  /**** Footer ******/
+
+  footer {
+    justify-content: center;
+    padding: 3vw;
+  }
+
+  .ts-icon {
+    width: 18vw;
+    margin: 1vw;
+  }
+
+  .footer-p {
+    margin-left: 6vw;
+    font-size: 1.2vw;
   }
 }

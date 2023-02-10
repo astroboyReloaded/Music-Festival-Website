@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,900&display=swap');
 
+.about {
+  display: none;
+}
+
 /***************************** HEADER *****************************/
 
 header {
@@ -150,6 +154,14 @@ address {
 }
 
 @media screen and (min-width: 768px) {
+  .home {
+    display: none;
+  }
+
+  .about {
+    display: block;
+  }
+
   /*********** Header ************************/
 
   header {
@@ -172,10 +184,10 @@ address {
     display: block;
     position: relative;
     height: 1px;
-    width: 4.5%;
+    width: 9%;
     background-color: var(--main);
     top: 3%;
-    left: 47.75%;
+    left: 46%;
   }
 
   .headline-p {
@@ -195,23 +207,25 @@ address {
   .contact {
     top: 45vw;
     font-size: 1vw;
+    margin-left: 9vw;
   }
 
   address {
     top: -7.5vw;
     font-size: 1vw;
+    margin-left: 9vw;
   }
 
   /*************** Main ********************/
 
   main {
-    padding-left: 3.6vw;
+    padding-left: 6vw;
   }
 
   /******** Creative **********/
 
   #creative h1::after {
-    left: 47.5%;
+    left: 47%;
   }
 
   .creative-p {
@@ -241,6 +255,10 @@ address {
 
   #history h1 {
     width: 100%;
+  }
+
+  #history h1::after {
+    left: 47%;
   }
 
   .history-p {
@@ -296,18 +314,10 @@ address {
 
   footer {
     background-color: var(--black);
-    justify-content: flex-start;
-    padding: 3vw 0 3vw 4.5vw;
   }
 
-  .ts-icon {
-    width: 18vw;
-    padding-left: 9vw;
-    margin: 1vw;
-  }
-
-  .footer-p {
+  .footer-p,
+  .footer-p a {
     color: var(--lghtGray);
-    font-size: 1.2vw;
   }
 }

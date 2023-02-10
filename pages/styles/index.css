@@ -117,7 +117,7 @@ main {
 }
 
 .blueBg {
-  height: 162vw;
+  height: 189vw;
   padding-bottom: 1.5vw;
   background-color: #212a3f8a;
 }
@@ -175,6 +175,11 @@ main {
 .secur {
   background: url('../../images/icons/security-icon.png') -1.8vw 50% no-repeat var(--cardBg);
   background-size: 27vw;
+}
+
+.forum {
+  background: url('../../images/icons/chat_icon.png') 3vw 50% no-repeat var(--cardBg);
+  background-size: 18vw;
 }
 
 .join {
@@ -398,6 +403,11 @@ footer p a {
     background-size: 6.9vw;
   }
 
+  .forum {
+    background-size: 6vw;
+    background-position: 50% 0.9vw;
+  }
+
   .info-link:hover {
     transform: scale(1.06);
   }
@@ -492,25 +502,15 @@ footer p a {
 
   #sponsors {
     display: flex;
-    padding-right: 9vw;
   }
 
   /**** Footer ******/
 
   footer {
     background-color: #fff;
-    justify-content: flex-start;
-    padding: 3vw;
-  }
-
-  .ts-icon {
-    width: 18vw;
-    padding-left: 9vw;
-    margin: 1vw;
   }
 
   .footer-p {
-    margin-left: 6vw;
     color: var(--drkGray);
   }
 
