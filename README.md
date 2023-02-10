@@ -69,7 +69,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://hello-microverse.netlify.app/)
+- [Live Demo Link](https://astroboyreloaded.github.io/1st-Capstone-Projec/)
 - [Presentation video](https://www.loom.com/share/b2f3e5e5953d4757bb549d8f5228b566)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
