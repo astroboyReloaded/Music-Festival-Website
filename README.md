@@ -163,7 +163,7 @@ to get a JavaScript review.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ESLint](https://eslint.org/).
+- Full design.
 
 <!-- CONTRIBUTING -->
 
