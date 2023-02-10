@@ -36,7 +36,7 @@ const artists = [
   },
   {
     name: 'Los Estrambóticos',
-    image: './images/content/los-estramboticos.jpg',
+    image: './images/content/estramboticos.jpg',
     alt: 'Arturo Ruelas, Luis César Aguirre y David Sánchez posing in black and white semi-formal / casual clothing soth from 45 deg above from legs up.',
     description: 'Los Estrambóticos is a ska and rock band formed in 1992 in Mexico City.',
     intro: 'During theyr trajectory, Los Estrambóticos has stayed as one of the most active and important bands for the national ska scene in Mexico due to their constant innovation.',
