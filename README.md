@@ -72,7 +72,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://astroboyreloaded.github.io/1st-Capstone-Projec/)
-- [Presentation video](https://www.loom.com/share/4887f6d0c3164f3ab1f951789f2d5c93)
+- [Presentation video](Tecate Supremo 2023 - 10 February 2023)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
