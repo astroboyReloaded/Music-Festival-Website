@@ -64,6 +64,8 @@
 - **Linters**: [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/), [Webhint](https://webhint.io/), [Stylelint](https://stylelint.io/.) and [ESLint](https://eslint.org/).
 - **A `.github/workflows/linters.yml`** file to run linters on GitHub Pull Request.
 - **A** `.gitignore` file, including `node_modules/`.
+- Responsive design.
+- JvaScript rendering form db object.
 
 <!-- LIVE DEMO -->
 
@@ -163,8 +165,7 @@ to get a JavaScript review.
 
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-- [ESLint](https://eslint.org/).
+- Additional pages.
 
 <!-- CONTRIBUTING -->
 
