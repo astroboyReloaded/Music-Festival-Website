@@ -6,13 +6,24 @@
   color: var(--drkGray);
 }
 
+.headline-p {
+  position: absolute;
+  top: 23.3vw;
+  left: 3vw;
+  font-size: 5.4vw;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 82, 2, 0.719);
+  background-image: url('/images/content/ts-logo.png');
+}
+
 #headline > h1 {
-  font-size: 9vw;
+  font-size: 7.2vw;
   font-weight: 900;
   height: 150vw;
   padding: 30vw 0 0 3vw;
-  background-color: #f5f5f5b2;
-  color: var(--seeThru);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 82, 2, 0.719);
+  background-image: url('/images/content/ts-logo.png');
   text-align: left;
 }
 
@@ -95,7 +106,7 @@ time {
 
 address {
   position: absolute;
-  top: 123vw;
+  top: 120vw;
   left: 3vw;
   font-style: normal;
   font-size: 3vw;
@@ -117,7 +128,7 @@ main {
 }
 
 .blueBg {
-  height: 162vw;
+  height: 189vw;
   padding-bottom: 1.5vw;
   background-color: #212a3f8a;
 }
@@ -128,7 +139,7 @@ main {
 
 .info::after {
   width: 6%;
-  left: 45%;
+  left: 47%;
 }
 
 .info-link {
@@ -175,6 +186,11 @@ main {
 .secur {
   background: url('../../images/icons/security-icon.png') -1.8vw 50% no-repeat var(--cardBg);
   background-size: 27vw;
+}
+
+.forum {
+  background: url('../../images/icons/chat_icon.png') 3vw 50% no-repeat var(--cardBg);
+  background-size: 18vw;
 }
 
 .join {
@@ -283,6 +299,28 @@ main {
   background-size: 3vw;
 }
 
+/******** Sponsors *********/
+
+#sponsors {
+  display: none;
+}
+
+/**** Footer ****/
+
+footer {
+  background-color: var(--drkGray);
+}
+
+.footer-p {
+  color: var(--lghtGray);
+}
+
+footer p a {
+  color: var(--lghtGray);
+}
+
+/*************************************** Desktop *********************************************/
+
 @media screen and (min-width: 768px) {
   /******** Headline *******/
 
@@ -290,14 +328,20 @@ main {
     height: 114vw;
   }
 
+  .headline-p {
+    left: 12vw;
+    font-size: 3.9vw;
+    top: 18vw;
+  }
+
   #headline > h1 {
-    font-size: 6vw;
+    font-size: 5.1vw;
     font-weight: 900;
     background-color: #f5f5f5b2;
     color: var(--seeThru);
     text-align: left;
     width: 100%;
-    padding-inline: 12vw 24vw;
+    padding: 23.3vw 18.9vw 0 12vw;
   }
 
   .line-up {
@@ -360,6 +404,11 @@ main {
     background-color: #212a3f8a;
   }
 
+  .info::after {
+    width: 3%;
+    left: 48%;
+  }
+
   .info-link {
     flex-direction: column;
     width: 18%;
@@ -369,6 +418,15 @@ main {
     justify-content: center;
     background-position: 50% 0;
     background-size: 6.9vw;
+  }
+
+  .forum {
+    background-size: 6vw;
+    background-position: 50% 0.9vw;
+  }
+
+  .info-link:hover {
+    transform: scale(1.06);
   }
 
   #information a h2 {
@@ -415,6 +473,7 @@ main {
     background-position: 0.9vw 1.2vw;
     background-size: 6.3vw;
     padding: 3vw 0 3vw 3vw;
+    cursor: pointer;
   }
 
   .artist-img {
@@ -454,5 +513,25 @@ main {
 
   .see-label {
     display: none;
+  }
+
+  /******** Sponsors *********/
+
+  #sponsors {
+    display: flex;
+  }
+
+  /**** Footer ******/
+
+  footer {
+    background-color: #fff;
+  }
+
+  .footer-p {
+    color: var(--drkGray);
+  }
+
+  footer p a {
+    color: var(--drkGray);
   }
 }

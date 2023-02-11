@@ -37,7 +37,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  max-width: 1440px;
   overflow-x: hidden;
 }
 
@@ -76,8 +75,8 @@ section {
 header {
   display: flex;
   flex-direction: column;
-  background: url('images/deco/background-removebg-preview.png') no-repeat;
-  background-size: 100%;
+  background: url('images/deco/background-removebg-preview.png')  no-repeat var(--lghtGray);
+  background-size: 100.5%;
 }
 
 #session {
@@ -165,23 +164,24 @@ input:checked ~ nav {
 
 nav ul {
   position: relative;
-  top: 30px;
+  top: 90px;
   font-size: clamp(18px, 6vw, 36px);
   text-align: center;
 }
 
 .nav-item {
-  margin: 6vw;
+  margin: 3vw;
 }
 
 .nav-link {
   text-decoration: none;
   color: var(--main);
+  margin: 6vw;
 }
 
 .campaign {
   padding: 1.8vw;
-  border: 3px solid var(--main);
+  border: 3px solid var(--seeThru);
 }
 
 /******************* Sponsors ******************/
@@ -217,6 +217,7 @@ nav ul {
 }
 
 /**** Footer ****/
+
 footer {
   display: flex;
 }
@@ -232,7 +233,8 @@ footer {
   justify-content: center;
 }
 
-footer p {
+.footer-p {
+  width: fit-content;
   margin: 0.6vw;
   color: var(--drkGray);
 }
@@ -272,26 +274,26 @@ footer p a {
     justify-content: flex-end;
     background-color: var(--black);
     color: var(--lghtGray);
-    font-size: 1.2vw;
+    font-size: 0.9vw;
     padding: 0.6vw 12vw 0.6vw 0;
   }
 
   .sess-link {
     text-decoration: none;
+    margin-inline: 1.2vw;
   }
 
   .sess-icon {
-    margin-inline: 1.2vw;
     font-size: 1.2vw;
     color: var(--lghtGray);
   }
 
   .face {
-    width: 1.5vw;
+    width: 1.2vw;
   }
 
   .twit {
-    width: 1.8vw;
+    width: 1.5vw;
   }
 
   /**** NavBar ****/
@@ -319,7 +321,8 @@ footer p a {
 
   .nav-logo {
     display: block;
-    width: 9vw;
+    width: 6vw;
+    margin: 1.5vw;
   }
 
   nav ul {
@@ -329,20 +332,31 @@ footer p a {
   }
 
   .nav-item {
-    margin: 2.4vw;
+    margin: 0 1.5vw;
   }
 
   .nav-link {
     color: var(--drkGray);
+    margin: 0;
   }
 
-  .active {
+  .nav-link:hover {
+    color: var(--main);
+  }
+
+  .about {
     color: var(--main);
   }
 
   .campaign {
     padding: 0.9vw;
     color: var(--main);
+    transition: all 300ms ease-in-out;
+  }
+
+  .campaign:hover {
+    background-color: var(--main);
+    color: var(--lghtGray);
   }
 
   /******** Sponsors *******/
@@ -372,13 +386,20 @@ footer p a {
     width: 12vw;
   }
 
-  /************ Footer **************/
+  /**** Footer ******/
 
   footer {
     justify-content: center;
+    padding: 3vw;
   }
 
   .ts-icon {
-    width: 21vw;
+    width: 18vw;
+    margin: 1vw;
+  }
+
+  .footer-p {
+    margin-left: 6vw;
+    font-size: 1.2vw;
   }
 }

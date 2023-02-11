@@ -64,12 +64,15 @@
 - **Linters**: [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/), [Webhint](https://webhint.io/), [Stylelint](https://stylelint.io/.) and [ESLint](https://eslint.org/).
 - **A `.github/workflows/linters.yml`** file to run linters on GitHub Pull Request.
 - **A** `.gitignore` file, including `node_modules/`.
+- Responsive design.
+- JvaScript rendering form db object.
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://hello-microverse.netlify.app/)
+- [Live Demo Link](https://astroboyreloaded.github.io/1st-Capstone-Projec/)
+- [Presentation video](https://tecatesupremo.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,8 +165,7 @@ to get a JavaScript review.
 
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-- Full design.
+- Additional pages.
 
 <!-- CONTRIBUTING -->
 

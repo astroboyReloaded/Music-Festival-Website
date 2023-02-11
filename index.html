@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="pages/scripts/artists.js" type="module"></script>
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/artists.js" type="module"></script>
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="pages/styles/index.css">
     <link rel="icon" type="image/x-icon" href="images/icons/favicon.png">
@@ -13,30 +14,31 @@
   </head>
   <body>
     <header>
-      <section id="session">
-        <a class="sess-link" href="#"><i class="sess-icon"><img class="face" src="images/icons/facebook-icon.png" alt="facebook icon"></i></a>
-        <a class="sess-link" href="#"><i class="sess-icon"><img class="twit" src="images/icons/twitter-icon.png" alt="twitter icon"></i></a>
-        <a class="sess-link" href="#"><p class="sess-icon">English</p></a>
-        <a class="sess-link" href="#"><p class="sess-icon">MyPage</p></a>
-        <a class="sess-link" href="#"><p class="sess-icon">Logout</p></a>
-      </section>
+      <ul id="session">
+        <li href="#"><a class="sess-link"><i><img class="face" src="./images/icons/facebook-icon.png" alt="facebook icon"></i></a></li>
+        <li href="#"><a class="sess-link"><i><img class="twit" src="./images/icons/twitter-icon.png" alt="twitter icon"></i></a></li>
+        <li href="#"><a class="sess-link">English</a></li>
+        <li href="#"><a class="sess-link">MyPage</a></li>
+        <li href="#"><a class="sess-link">Logout</a></li>
+      </ul>
       <label class="menu-btn">
-        <input type="checkbox">
+        <input id="checkbox" type="checkbox">
         <span class="burguer"></span>
         <nav>
-          <a href="#"><img class="nav-logo" src="images/content/ts-logo.png" alt="Tecate Supremo logo"></a>
+          <a href="#"><img class="nav-logo" src="./images/content/ts-logo.png" alt="Tecate Supremo logo"></a>
           <ul>
-            <li class="nav-item"><a href="pages/about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="./pages/about.html" class="nav-link">About</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Program</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Join</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Sponsors</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">History</a></li>
+            <li class="nav-item"><a href="pages/about.html#sponsors" class="nav-link">Sponsors</a></li>
+            <li class="nav-item"><a href="pages/about.html#history" class="nav-link">History</a></li>
             <li class="nav-item"><a class="nav-link campaign" href="#">TS Campaign</a></li>
           </ul>
         </nav>
       </label>
       <section id="headline">
-        <h1>TECATE SUPREMO 2023</h1>
+        <p class="headline-p">"Helo! Music Lovers!"</p>
+        <h1>THE INDOMITABLE FESTIVAL TECATE SUPREMO 2023</h1>
         <ul class="line-up">
           <small>Line-up in alphabetical order by block</small>
           <li class="inter">INTERPOL</li>
@@ -72,6 +74,10 @@
             <h2>Security</h2>
             <p>Which items are allowed, and which items are forbidden in the festival?</p>
           </a>
+          <a href="#" class="forum info-link">
+            <h2>Forum</h2>
+            <p>Chat with people interested in this event</p>
+          </a>
           <a href="#" class="join">Join Tecate Supremo 2023</a>
           <a href="#" class="program">SEE THE HOLE PROGRAM</a>
         </div>
@@ -79,19 +85,19 @@
       <section id="artists"></section>
       <section id="sponsors">
         <h1 class="sectionTitle">Sponsors</h1>
-        <i class="sponsor"><img class="w1" src="../images/content/donBoleton-logo.png" alt="Don Boletón logo."></i>
-        <i class="sponsor"><img class="w2" src="../images/content/tecate-logo.png" alt="Tecate logo."></i>
-        <i class="sponsor"><img class="w2" src="../images/content/gnp-logo.png" alt="GNP logo"></i>
-        <i class="sponsor"><img class="w3" src="../images/content/banamex-logo.png" alt=""></i>
-        <i class="sponsor"><img class="w2" src="../images/content/ocesa-logo.png" alt="Ocesa logo"></i>
-        <i class="sponsor"><img class="w2" src="../images/content/apodaca-logo.png" alt="Apodaca Group logo"></i>
+        <i class="sponsor"><img class="w1" src="./images/content/donBoleton-logo.png" alt="Don Boletón logo."></i>
+        <i class="sponsor"><img class="w2" src="./images/content/tecate-logo.png" alt="Tecate logo."></i>
+        <i class="sponsor"><img class="w2" src="./images/content/gnp-logo.png" alt="GNP logo"></i>
+        <i class="sponsor"><img class="w3" src="./images/content/banamex-logo.png" alt="Banamex logo"></i>
+        <i class="sponsor"><img class="w2" src="./images/content/ocesa-logo.png" alt="Ocesa logo"></i>
+        <i class="sponsor"><img class="w2" src="./images/content/apodaca-logo.png" alt="Apodaca Group logo"></i>
       </section>
     </main>
     <footer>
-      <i><img class="ts-icon" src="../images/content/ts-logo.png" alt="Tecate Supremo icon"></i>
+      <i><img class="ts-icon" src="./images/content/ts-logo.png" alt="Tecate Supremo icon"></i>
     <div class="foot-text-cont">
-      <p>Tecate Supremo 2023</p>
-      <p>Content taken from <a href="https://tecatesupremo.com/">Tecate Supremo's official site</a></p>
+      <p class="footer-p">Tecate Supremo 2023</p>
+      <p class="footer-p">Some content taken from <a href="https://tecatesupremo.com/">Tecate Supremo's official site</a></p>
     </div>
     </footer>
   </body>
