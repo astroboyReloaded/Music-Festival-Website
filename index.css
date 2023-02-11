@@ -37,7 +37,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  max-width: 1440px;
   overflow-x: hidden;
 }
 
@@ -182,7 +181,7 @@ nav ul {
 
 .campaign {
   padding: 1.8vw;
-  border: 3px solid var(--main);
+  border: 3px solid var(--seeThru);
 }
 
 /******************* Sponsors ******************/
