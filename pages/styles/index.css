@@ -35,7 +35,7 @@ small {
   position: absolute;
   display: flex;
   flex-wrap: wrap;
-  top: 57vw;
+  top: 63vw;
   width: 94%;
   margin-inline: 3vw;
   padding: 3vw;
@@ -106,7 +106,7 @@ time {
 
 address {
   position: absolute;
-  top: 123vw;
+  top: 126vw;
   left: 3vw;
   font-style: normal;
   font-size: 3vw;
