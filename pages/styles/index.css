@@ -6,13 +6,24 @@
   color: var(--drkGray);
 }
 
+.headline-p {
+  position: absolute;
+  top: 23.3vw;
+  left: 3vw;
+  font-size: 5.4vw;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 82, 2, 0.719);
+  background-image: url('/images/content/ts-logo.png');
+}
+
 #headline > h1 {
-  font-size: 9vw;
+  font-size: 7.2vw;
   font-weight: 900;
   height: 150vw;
   padding: 30vw 0 0 3vw;
-  background-color: #f5f5f5b2;
-  color: var(--seeThru);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 82, 2, 0.719);
+  background-image: url('/images/content/ts-logo.png');
   text-align: left;
 }
 
@@ -317,14 +328,20 @@ footer p a {
     height: 114vw;
   }
 
+  .headline-p {
+    left: 12vw;
+    font-size: 3.9vw;
+    top: 18vw;
+  }
+
   #headline > h1 {
-    font-size: 6vw;
+    font-size: 5.1vw;
     font-weight: 900;
     background-color: #f5f5f5b2;
     color: var(--seeThru);
     text-align: left;
     width: 100%;
-    padding-inline: 12vw 24vw;
+    padding: 23.3vw 18.9vw 0 12vw;
   }
 
   .line-up {
