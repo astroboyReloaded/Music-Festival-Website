@@ -76,7 +76,7 @@ section {
 header {
   display: flex;
   flex-direction: column;
-  background: url('images/deco/background-removebg-preview.png') no-repeat var(--lghtGray);
+  background: url('images/deco/background-removebg-preview.png')  no-repeat var(--lghtGray);
   background-size: 100.5%;
 }
 
