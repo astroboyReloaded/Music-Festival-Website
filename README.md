@@ -4,7 +4,7 @@
   <img src="images/icons/Astroboy-removebg.png" alt="logo" width="120"  height="auto" />
   <br/>
 
-  <h3><b>Hello Microverse</b></h3>
+  <h3><b>Music Festival Website</b></h3>
 
 </div>
 
@@ -31,15 +31,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# 📖 Music Festival Website <a name="about-project"></a>
 
-> **Hello Microverse** is a starter exercise to create new projects based on specific settings and requirements to ensure proper structure and best practices. By cloning this repo and running `npm install` we will have a basic boilerplate with properly configured linters and correct initial file structrure.
+> **Music Festival Website** is a project build to show the skills on developing a website for mass events such as conferences, festivals or any event or place that has a lineup or series of events happening. This website was built using only the 3 basic technologies of web development, **HTML, CSS** and **JavaScript** If you decide to use this project as a template to create your own website, please star my project as a sing of support. Thank you for picking!!!
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> This boilerplate focuses only on `linters` and `.gitignore`. No JS or Server are included in this repo.
 
 <details>
   <summary>Client</summary>
@@ -53,7 +51,7 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://www.netlify.com/">Netlify</a></li>
+    <li><a href="https://pages.github.com//">GitHub Pages</a></li>
   </ul>
 </details>
 
@@ -61,11 +59,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Linters**: [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/), [Webhint](https://webhint.io/), [Stylelint](https://stylelint.io/.) and [ESLint](https://eslint.org/).
-- **A `.github/workflows/linters.yml`** file to run linters on GitHub Pull Request.
-- **A** `.gitignore` file, including `node_modules/`.
 - Responsive design.
 - JvaScript rendering form db object.
+- Basic UI.
 
 <!-- LIVE DEMO -->
 
@@ -80,7 +76,6 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> If you are a new developer and would like to have a basic project boilerplate to start practicing your code or creating your first app-features, cloning this project will give you what you need!
 > To get a local copy up and running, follow these steps:
 
 ### Prerequisites
