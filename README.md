@@ -67,8 +67,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://astroboyreloaded.github.io/1st-Capstone-Projec/)
-- [Presentation video](https://tecatesupremo.com/)
+- [Live Demo Link](https://astroboyreloaded.github.io/Music-Festival-Website/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
